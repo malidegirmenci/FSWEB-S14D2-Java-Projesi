@@ -10,11 +10,11 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
 
 Sınıf yazmaya doyduğunuz bir proje olması dileklerimle....
 
-### Lamp
-* Lamp isimli bir sınıf yazınız.
-* Lamp sınıfı için 3 tane ```instance variable``` tanımlamalıyız. ```style``` tipi LampType isminde bir enum olmalı. ```battery``` tipi boolean olmalı. ```globRating``` tipi int olmalı. 
-* Lamp sınıfının tüm değişkenleri `private` olmalı. Lamp sınıfı için 3 değişkeninde eklenebileceği tek bir ```constructor``` olmalı.
-* Lamp sınıfı için toplamda 4 metod yazmamız gerekiyor. ```turnOn``` herhangi bir değer dönmeyecek. Sadece 'Lamp is being turned on.' mesajının ekrana basacak.
+### Home.Bedroom.Lamp
+* Home.Bedroom.Lamp isimli bir sınıf yazınız.
+* Home.Bedroom.Lamp sınıfı için 3 tane ```instance variable``` tanımlamalıyız. ```style``` tipi LampType isminde bir enum olmalı. ```battery``` tipi boolean olmalı. ```globRating``` tipi int olmalı. 
+* Home.Bedroom.Lamp sınıfının tüm değişkenleri `private` olmalı. Home.Bedroom.Lamp sınıfı için 3 değişkeninde eklenebileceği tek bir ```constructor``` olmalı.
+* Home.Bedroom.Lamp sınıfı için toplamda 4 metod yazmamız gerekiyor. ```turnOn``` herhangi bir değer dönmeyecek. Sadece 'Home.Bedroom.Lamp is being turned on.' mesajının ekrana basacak.
 * ```getStyle()``` style değişkenin değerini dönmeli. ```isBattery()``` battery değişkeninin değerini dönmeli. ```getGlobalRating()``` globalRating değişkeninin değerini dönmeli.
 
 ### Bed
@@ -50,7 +50,7 @@ Sınıf yazmaya doyduğunuz bir proje olması dileklerimle....
 ### Bedroom 
 * Bedroom isimli bir sınıf oluşturunuz.
 * Bu sınıfın 10 tane ```instance variable``` değeri olmalı. ```name``` String tipinde. ```wall1 wall2 wall3 wall4``` Wall tipinde. ```ceiling``` Ceiling tipinde.
-  ```bed``` Bed tipinde. ```lamp``` Lamp tipinde. ```wardrobe``` Wardrobe tipinde. ```carpet``` Carpet tipinde.
+  ```bed``` Bed tipinde. ```lamp``` Home.Bedroom.Lamp tipinde. ```wardrobe``` Wardrobe tipinde. ```carpet``` Carpet tipinde.
 * Sınıfımızın ```constructor``` metodu tek olmalı ve 10 değişkeni de almalı. 
 * getter metodlarını eklemelisiniz.
 
