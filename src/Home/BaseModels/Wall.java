@@ -1,4 +1,4 @@
-package Home.Bedroom;
+package Home.BaseModels;
 
 public class Wall {
     private String direction;

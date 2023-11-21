@@ -1,4 +1,4 @@
-package Home.Bedroom;
+package Home.BaseModels;
 
 import Home.ENUMS.PaintColor;
 

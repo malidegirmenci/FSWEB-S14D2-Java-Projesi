@@ -1,4 +1,4 @@
-package Home.Bedroom;
+package Home.BaseModels;
 
 import Home.ENUMS.LampType;
 
@@ -15,7 +15,7 @@ public class Lamp {
     }
 
     public void turnOn(){
-        System.out.println("Home.Bedroom.Lamp is being turned on");
+        System.out.println("Home.BaseModels.Lamp is being turned on");
     }
 
     public LampType getStyle() {
